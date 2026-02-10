@@ -1,0 +1,40 @@
+{
+    "folders": [
+        {
+            "name": "config",
+            "path": "."
+        },
+        {
+            "name": "common",
+            "path": "common"
+        },
+        {
+            "name": "lion",
+            "path": "lion"
+        },
+    ],
+    "settings": {
+        "files.exclude": {
+            "common/": true,
+            "lion/": true
+        },
+        "java.jdt.ls.java.home": "C:\\inbound\\module\\jdk-25.0.2",
+        "java.configuration.runtimes": [
+            {
+                "name": "JavaSE-25",
+                "path": "C:\\inbound\\module\\jdk-25.0.2",
+                "default": true
+            }
+        ],
+        "java.import.gradle.user.home": "C:\\inbound\\module\\gradle-9.3.1\\repository",
+        "java.import.gradle.wrapper.enabled": false,
+        "java.import.gradle.java.home": "C:\\inbound\\module\\jdk-25.0.2",
+        "java.import.gradle.home": "C:\\inbound\\module\\gradle-9.3.1",
+        "terminal.integrated.env.windows": {
+            "JAVA_HOME": "C:\\inbound\\module\\jdk-25.0.2",
+            "PATH": "C:\\inbound\\module\\jdk-25.0.2\\bin;${env:PATH}"
+        },
+        "java.compile.nullAnalysis.mode": "automatic",
+        "java.configuration.updateBuildConfiguration": "automatic"
+    }
+}
